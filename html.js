@@ -12,8 +12,9 @@ function testing(){
         else if(value === 3){
             newArr[2].push(value)
         }
-        console.log(value)
     }
 }
 
 testing();
+
+const mMap = newArr.map((x)=> x[1]);
